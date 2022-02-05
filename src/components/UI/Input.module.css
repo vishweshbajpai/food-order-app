@@ -1,7 +1,7 @@
 .input {
     display: flex;
     align-items: center;
-    margin-bottom: 0.5rem;
+    margin-bottom: 1rem;
     justify-content: right;
   }
   
@@ -16,4 +16,10 @@
     border: 1px solid #ccc;
     font: inherit;
     padding-left: 0.5rem;
+  }
+
+  @media (max-width: 450px) {
+    .input input {
+      width: 2rem;
+    }
   }

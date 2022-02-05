@@ -11,7 +11,7 @@ const Cart = (props) => {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [didSubmit, setDidSubmit] = useState(false);
 
-  const totalAmount = `$${cartCxt.totalAmount.toFixed(2)}`;
+  const totalAmount = `$${Math.abs(cartCxt.totalAmount.toFixed(2))}`;
   const hasItems = cartCxt.items.length > 0;
   // console.log(cartCxt);
 
