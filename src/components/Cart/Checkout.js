@@ -85,7 +85,7 @@ const Checkout = (props) => {
       <div className={classes.hr}></div>
       <div className={classes.total}>
         <span>Total Amount</span>
-        <span>{props.totalAmount}</span>
+        <span>&#8377;{props.totalAmount}</span>
       </div>
       <div className={classes.actions}>
         <button type="button" onClick={props.onCancel}>
